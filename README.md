@@ -45,6 +45,6 @@ Execute the base script first, followed by others in any order of your choice:
 /bin/bash install_utilities.sh
 ```
 
-License
+# License
 
 This project is licensed under the [MIT License](/LICENSE).
