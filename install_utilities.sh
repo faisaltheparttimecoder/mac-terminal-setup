@@ -19,7 +19,7 @@ install_visual_studio_code() {
     echo -e "\n# Installing Visual Studio Code\n"
     if ! command -v code &> /dev/null; then
         brew install --cask visual-studio-code
-        echo 'export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"' >> "$HOME/.zprofile"  
+        echo 'export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"' >> "$HOME/.zprofile"  
     else 
         brew upgrade --cask visual-studio-code
     fi
@@ -115,4 +115,5 @@ Activate Extension
         "go.goroot": "$HOME/.goenv/shims/"
     }
 ################################################################################
+'
 
