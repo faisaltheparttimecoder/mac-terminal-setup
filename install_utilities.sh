@@ -39,8 +39,8 @@ install_visual_studio_code_extensions() {
     # Tabnine AI
     code --install-extension TabNine.tabnine-vscode --force
 
-    # Vibrancy Theme
-    code --install-extension illixion.vscode-vibrancy-continued --force
+    # Grubox Theme
+    code --install-extension sainnhe.gruvbox-material --force
 
     # Dev containers
     code --install-extension ms-vscode-remote.vscode-remote-extensionpack --force
@@ -80,24 +80,13 @@ echo '
 ################################################################################
 Please follow the instructions below to complete the setup process.
 
-Open VScode app
-
-Enable Vibrancy Theme
-    - Press Cmd + shift + p
-    - Type in "Enable Vibrancy" and click to enable
-    - Type in "Reload Vibrancy" and click to apply the theme
-
-    Note: 
-    - In order for vibrancy to work, make sure you first select the default theme, apply vibrancy and then close your custom theme.
-    - There may be a error shown that file is corrupted, you can ignore the error and click to never show again
-
-Activate Extension
+Open VScode app and activate extension
     - Press Cmd + shift + p
     - Type in "Preferences: Open User Settings (JSON)" and click to open
     - Copy paste the below settings to activate the extensions 
 
     {
-        "workbench.colorTheme": "Visual Studio Dark",
+        "workbench.colorTheme": "Gruvbox Material Dark",
         "window.titleBarStyle": "custom",
         "workbench.iconTheme": "material-icon-theme",
         "terminal.external.osxExec": "terminal.app",

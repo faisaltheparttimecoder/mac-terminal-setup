@@ -20,6 +20,8 @@ Welcome to the Mac Terminal Setup repository! This repository contains a collect
     - Installs Visual Studio Code, a versatile integrated development environment (IDE).
     - Configures Visual Studio Code with essential extensions.
     - Installs Sublime TextEditor for additional coding options.
+4. [install_personalization.sh](/install_personalization.sh)
+    - Installs Rectangle, provides keyboard shortcuts for window resizing.
 
 # How to Run
 
@@ -43,6 +45,7 @@ Execute the base script first, followed by others in any order of your choice:
 /bin/bash install_languages_env.sh
 /bin/bash install_terminal.sh
 /bin/bash install_utilities.sh
+/bin/bash install_personalization.sh
 ```
 
 # License
